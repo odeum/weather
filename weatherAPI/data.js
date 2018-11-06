@@ -1,3 +1,4 @@
+var dotenv = require('dotenv').load()
 var create = require('axios').create
 
 const weatherAPI = create({
